@@ -62,7 +62,7 @@ nav a:hover {
     flex-direction: column;
 }
 .banner_headline {    
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,13 +82,13 @@ nav a:hover {
     margin-top: 30px;
 }
 .banner_options {    
-    height: 210px;
+    height: 250px;
     display: flex;   
 }
 .banner1,
 .banner2, 
 .banner3 {
-    flex-grow: 1;
+    flex: 1;
     color: white;
     padding: 20px;
 }
@@ -102,6 +102,30 @@ nav a:hover {
     background-color: #2b4c99;
 }
 .banner_title {
-
+    font-size: 21px;
 }
-    
+.banner_desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 40px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.banner_hours{   
+    display:flex;
+    flex-direction:column
+}
+.area-hours{
+    display:flex;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+}
+
