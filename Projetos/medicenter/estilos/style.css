@@ -225,12 +225,6 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-.conteiner2 {
-    display: flex;
-    flex-direction: column;  
-    width: 990px;  
-}
-
 footer {
     background-color: #1e1e1e;
     color: white;
@@ -239,7 +233,7 @@ footer {
 }
 .footer_menu {
     display: flex;
-    flex: 1;    
+        
 }
 .fm_1,
 .fm_2,
@@ -266,12 +260,15 @@ footer {
 }
 .footer_area {
     display: flex;
-    flex: 1;
-    color: white;
+     
+}
+.flexcolumn {
+    flex-direction: column;
 }
 .footer_area-item {
     flex: 1;
     padding: 20px;
+    color: white;
 }
 .footer_title-text {
     color: white;
@@ -295,4 +292,24 @@ footer {
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+address {
+    margin-top: 20px;
+}
+.footer_address {
+    display: flex;    
+}
+.footer_address address {
+    flex: 1;
+}
+.social {
+    display: flex;
+    margin-top: 20px;
+}
+.social img {
+    width: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 5px;
 }
