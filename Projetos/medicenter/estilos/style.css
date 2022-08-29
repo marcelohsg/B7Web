@@ -156,19 +156,15 @@ nav a:hover {
 }
 .deparments_body {
     display: flex;
-    flex-direction: column;
-}
-.deparments_body_row {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 28px;
-}   
-.deparments_body_row div {
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.deparments_body div {
+    background-color: #36a9e1;
     width: 150px;
     height: 150px;
-    background-color: #39aae1;  
-    margin-bottom: 28px;
 }
 
 .appointment_text {
