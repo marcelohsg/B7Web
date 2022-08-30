@@ -3,8 +3,9 @@
 * {
     margin: 0px;
     padding: 0px;    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;        
 }
+
 
 header {
     display: flex;
@@ -14,8 +15,8 @@ header {
 .container {
     display: flex;
     justify-content: space-between;  
-    width: 990px; 
-    
+    width: 990px;
+    overflow-x: hidden;    
 }
 .logo {
     display: flex;
@@ -39,9 +40,10 @@ nav a {
     color: #727272;
     
 }
-nav .active a, a:hover {
+nav .active a,.menu a:hover {
     background-color: #39aae1;
     color: white;
+    border-radius: 10px;
 }
 
 .banner {
@@ -52,6 +54,7 @@ nav .active a, a:hover {
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover;
+    
 }
 .column { 
     flex-direction: column;
