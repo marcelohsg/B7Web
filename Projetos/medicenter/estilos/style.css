@@ -34,7 +34,8 @@ nav ul {
 }
 nav a {
     display: block;
-    padding: 15px;    
+    padding: 15px;
+    font-size: 16px;    
     text-transform: uppercase;
     text-decoration: none;
     color: #727272;
@@ -49,7 +50,7 @@ nav .active a,.menu a:hover {
 .banner {
     display: flex;
     justify-content: center;
-    height: 670px;
+    min-height: 670px;
     background-image: url('../imagens/img1.jpg');
     background-repeat: no-repeat;
     background-position: center;    
@@ -161,9 +162,9 @@ nav .active a,.menu a:hover {
 .deparments_body {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;    
     flex-wrap: wrap;
-    row-gap: 30px;
+    gap: 30px;
 }
 .deparments_body div {
     background-color: #36a9e1;
@@ -295,6 +296,7 @@ footer {
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+    text-align: center;
 }
 address {
     margin-top: 20px;

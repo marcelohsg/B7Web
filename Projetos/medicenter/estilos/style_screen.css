@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 768px) {
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    #geral {
+        padding: 8px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    .footer_address {
+        flex-direction: column;
+    }
+    .footer_address address {
+        flex: 0;
+    }
+    .flexcolumn {        
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     .banner_headline {
         padding: 20px;
@@ -10,9 +39,18 @@
     .banner_headline h2 {
         font-size: 17px;
     }
-    .banner_options {
+    .banner_options, .footer_menu, .footer_area {
         height: auto;
         flex-direction: column;
+    }
+    .footer_area-item01 {
+        order: 2;
+    }
+    .footer_area-item02 {
+        order: 0;
+    }
+    .footer_area-item03 {
+        order: 1;
     }
     
 }
