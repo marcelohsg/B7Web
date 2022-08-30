@@ -30,19 +30,35 @@
 
 
 @media screen and (max-width: 600px) {
+
+    
+    .banner {
+        background-image: none;
+    }
+    .banner_headline {
+        background-image: url(../imagens/img1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;    
+        background-size: cover;
+        width: 400px;
+    }
+   
     .banner_headline {
         padding: 20px;
     }
     .banner_headline h1 {
-        font-size: 55px;
+        font-size: 35px;
     }
     .banner_headline h2 {
-        font-size: 17px;
+        font-size: 14px;
+        margin-top: 15px;
     }
     .banner_options, .footer_menu, .footer_area {
         height: auto;
         flex-direction: column;
     }
+    
+    
     .footer_desc {
         margin-bottom: 0px;
     }
@@ -54,6 +70,17 @@
     }
     .footer_area-item03 {
         order: 1;
-    }
+    }   
     
+}
+@media screen and (max-width: 375px) {
+    .banner_headline {        
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container > section {
+        margin-left: 20px;
+    }
 }

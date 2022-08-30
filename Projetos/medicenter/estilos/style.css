@@ -53,7 +53,7 @@ nav .active a,.menu a:hover {
     min-height: 670px;
     background-image: url('../imagens/img1.jpg');
     background-repeat: no-repeat;
-    background-position: center;    
+    background-position: center center;    
     background-size: cover;
     
 }
