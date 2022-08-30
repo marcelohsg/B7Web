@@ -41,6 +41,7 @@
         background-position: center;    
         background-size: cover;
         width: 400px;
+        
     }
    
     .banner_headline {
@@ -82,5 +83,12 @@
 @media screen and (max-width: 320px) {
     .container > section {
         margin-left: 20px;
+    }  
+    .banner_headline {        
+        width: 300px;
+    } 
+    .deparments_body div {        
+        width: 100px;
+        height: 100px;
     }
 }
