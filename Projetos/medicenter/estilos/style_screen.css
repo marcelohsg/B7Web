@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
     nav a {
         padding: 10px;
         font-size: 14px;
@@ -10,8 +10,12 @@
         justify-content: center;
         align-items: center; 
     }
+    
     #geral {
         padding: 8px;
+    }
+    .banner_headline h1 {
+        margin-right: 280px;
     }
     footer {
         margin-top: 20px;
@@ -29,7 +33,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 666px) {
 
     
     .banner {
@@ -38,9 +42,9 @@
     .banner_headline {
         background-image: url(../imagens/img1.jpg);
         background-repeat: no-repeat;
-        background-position: center;    
+        background-position: top center;    
         background-size: cover;
-        width: 400px;
+        width: 100%;
         
     }
    
@@ -49,16 +53,17 @@
     }
     .banner_headline h1 {
         font-size: 35px;
+        margin-left: 5px;
     }
     .banner_headline h2 {
         font-size: 14px;
         margin-top: 15px;
+        margin-left: 5px;
     }
     .banner_options, .footer_menu, .footer_area {
         height: auto;
         flex-direction: column;
-    }
-    
+    }    
     
     .footer_desc {
         margin-bottom: 0px;
@@ -74,11 +79,38 @@
     }   
     
 }
-@media screen and (max-width: 375px) {
-    .banner_headline {        
-        width: 340px;
+
+
+
+@media screen and (max-width: 600px) { 
+    
+    .logo {
+        margin-top: 10px;
     }
+    .banner_headline {        
+        background-position:  top center;
+        width: 100%; 
+    }
+   
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;    
+        width: 100%;
+        left: 0;
+        background-color: white;
+    }
+    header {
+        height: auto;
+    }
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }    
+       
 }
+
 
 @media screen and (max-width: 320px) {
     .container > section {

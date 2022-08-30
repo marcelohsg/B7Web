@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width,user-scalable=0">
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        };
+        window.addEventListener('resize', function () {
+        var largura = window.innerWidth;
+
+        if (largura > 600)
+           document.querySelector(".menu nav ul").removeAttribute('style');
+        });
+    </script>
     <title>MediCenter</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/style_screen.css" media="screen">
@@ -16,6 +33,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">Blog</a></li>
