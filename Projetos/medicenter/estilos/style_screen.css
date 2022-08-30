@@ -43,6 +43,9 @@
         height: auto;
         flex-direction: column;
     }
+    .footer_desc {
+        margin-bottom: 0px;
+    }
     .footer_area-item01 {
         order: 2;
     }
