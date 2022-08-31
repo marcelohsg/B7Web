@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+   
+    <section class="cabecalho">
+        <h1>Formulário de Cadatro</h1>
+        <p>Por favor, preencha todos os campos do formulário para se tornar sócio torcedor.</p>
+    </section>
+    <section>
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="iname">
+                    Seu nome:
+                    <input type="text" name="nome" id="iname" placeholder="Nome" required minlength="2" maxlength="15">
+                    <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome" required minlength="2" maxlength="15">
+                </label>
+                <label for="isexo">
+                    Masculino:
+                    <input type="radio" name="sexo" id="isexo">
+                    Feminino:
+                    <input type="radio" name="sexo" id="isexo">
+                    Outros:
+                    <input type="radio" name="sexo" id="isexo">
+                </label>
+    
+                <label for="irg">
+                    RG:
+                    <input type="text" name="rg" id="irg" required min="7" max="12">
+                </label>
+                <label for="icpf">
+                    CPF:
+                    <input type="text" name="cpf" id="icpf" required min="11" max="11">
+                </label>
+                <label for="iemail">
+                    E-mail:
+                    <input type="email" name="email" id="iemail" required placeholder="name@site.com.br">
+                </label>
+                <label for="icelular">
+                    Celular:
+                    <input type="tel" name="celular" id="icelular" required min="8" placeholder="(xx) x xxx-xxxx">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="irua">
+                    Rua:
+                    <input type="text" name="rua" id="irua" required maxlength="20">
+                </label>
+                <label for="inumero">
+                    Númemo:
+                    <input type="number" name="numero" id="inumero" required>
+                </label>
+                <label for="ibairro">
+                    bairro:
+                    <input type="text" name="bairro" id="ibairro">
+                </label>
+                <label for="iestado">
+                    Estado:
+                    <select name="estado" id="iestado">
+                        <option value="" selected>Nenhum</option>
+                        <option value="">AC</option>
+                        <option value="">AL</option>
+                        <option value="">AP</option>
+                        <option value="">AM</option>
+                        <option value="">BA</option>
+                        <option value="">CE</option>
+                        <option value="">DF</option>
+                        <option value="">ES</option>
+                        <option value="">GO</option>
+                        <option value="">MA</option>
+                        <option value="">MT</option>
+                        <option value="">MS</option>
+                        <option value="">MG</option>
+                        <option value="">PA</option>
+                        <option value="">PB</option>
+                        <option value="">PR</option>
+                        <option value="">PE</option>
+                        <option value="">PI</option>
+                        <option value="">RJ</option>
+                        <option value="">RN</option>
+                        <option value="">RS</option>
+                        <option value="">RO</option>
+                        <option value="">RR</option>
+                        <option value="">SC</option>
+                        <option value="">SP</option>
+                        <option value="">SE</option>
+                        <option value="">TO</option>
+                    </select>
+                </label>
+                <label for="icidade">
+                    Cidade:
+                    <input type="text" name="cidade" id="icidade" required>
+                </label>
+                <label for="icep">
+                    CEP:
+                    <input type="text" name="cep" id="icep" required min="8" placeholder="xxxxx-xxx">
+                </label>
+            </fieldset>
+            <input type="submit" value="Enviar" class="botao">
+            <input type="reset" value="Limpar" class="botao">
+        </form>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    
+
+    background-image: url('../imagens/maracanã.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho h1 {
+    margin-top: 15px;
+    font-size: 45px;
+}
+
+.cabecalho h1, .cabecalho p {
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+        
+}
+fieldset {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+fieldset legend {
+    background-color: rgba(210, 0, 0, 1);
+    color: white;
+    padding: 5px;
+    border: 1px solid rgba(210, 0, 0, 1);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    
+}
+
+.botao {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(210, 0, 0, 1);
+    color: white;
+}
+.botao:hover {
+    background-color: red;
+}
