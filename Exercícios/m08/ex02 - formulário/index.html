@@ -18,11 +18,10 @@
             <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="iname">
-                    Seu nome:
-                    <input type="text" name="nome" id="iname" placeholder="Nome" required minlength="2" maxlength="15">
-                    <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome" required minlength="2" maxlength="15">
+                    Nome Completo:
+                    <input type="text" name="nome" id="iname" placeholder="Nome Completo" required minlength="5" maxlength="30" size="25">                    
                 </label>
-                <label for="isexo">
+                <label for="isexo" id="sexo">
                     Masculino:
                     <input type="radio" name="sexo" id="isexo">
                     Feminino:
@@ -30,37 +29,46 @@
                     Outros:
                     <input type="radio" name="sexo" id="isexo">
                 </label>
+                <label for="isexualidade" id="sexualidade">
+                    Sexo:
+                    <select name="sexsualidade" id="isexualidade">
+                        <option value="" selected>Nenhum</option>
+                        <option value="">Feminino</option>
+                        <option value="">Masculino</option>
+                        <option value="">Outros</option>                        
+                    </select>
+                </label>
     
                 <label for="irg">
-                    RG:
-                    <input type="text" name="rg" id="irg" required min="7" max="12">
+                    RG: 
+                    <input type="text" name="rg" id="irg" required min="7" max="12" size="10">
                 </label>
                 <label for="icpf">
-                    CPF:
-                    <input type="text" name="cpf" id="icpf" required min="11" max="11">
+                    CPF: 
+                    <input type="text" name="cpf" id="icpf" required min="11" max="11" size="15">
                 </label>
                 <label for="iemail">
-                    E-mail:
-                    <input type="email" name="email" id="iemail" required placeholder="name@site.com.br">
+                    E-mail: 
+                    <input type="email" name="email" id="iemail" required placeholder="name@site.com.br" size="25">
                 </label>
                 <label for="icelular">
-                    Celular:
-                    <input type="tel" name="celular" id="icelular" required min="8" placeholder="(xx) x xxx-xxxx">
+                    Celular: 
+                    <input type="tel" name="celular" id="icelular" required min="8" placeholder="(xx) x xxx-xxxx" size="15">
                 </label>
             </fieldset>
 
             <fieldset>
                 <legend>Endereço</legend>
                 <label for="irua">
-                    Rua:
+                    Rua: 
                     <input type="text" name="rua" id="irua" required maxlength="20">
                 </label>
                 <label for="inumero">
-                    Númemo:
-                    <input type="number" name="numero" id="inumero" required size="6">
+                    Número: 
+                    <input type="number" name="numero" id="inumero" required>
                 </label>
                 <label for="ibairro">
-                    bairro:
+                    bairro: 
                     <input type="text" name="bairro" id="ibairro">
                 </label>
                 <label for="iestado">
@@ -97,11 +105,11 @@
                     </select>
                 </label>
                 <label for="icidade">
-                    Cidade:
+                    Cidade: 
                     <input type="text" name="cidade" id="icidade" required>
                 </label>
                 <label for="icep">
-                    CEP:
+                    CEP: 
                     <input type="text" name="cep" id="icep" required min="8" placeholder="xxxxx-xxx">
                 </label>
             </fieldset>

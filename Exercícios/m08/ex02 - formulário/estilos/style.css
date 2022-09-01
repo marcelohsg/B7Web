@@ -9,11 +9,7 @@
 
 
 body {   
-
-    background-image: url('../imagens/maracanã.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-color: black;    
 }
 
 .cabecalho h1 {
@@ -42,8 +38,7 @@ fieldset {
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid black;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 fieldset legend {
     background-color: rgba(210, 0, 0, 1);
@@ -51,15 +46,22 @@ fieldset legend {
     padding: 5px;
     border: 1px solid rgba(210, 0, 0, 1);
     border-radius: 10px;
+    font-weight: bolder;
+    
 }
-
 label {
     display: block;
     margin: 10px;
+    font-weight: bold;
 }
-
-input {
-    
+label input{
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+label #inumero {
+    width: 70px;
 }
 
 .botao {
@@ -75,4 +77,19 @@ input {
 }
 .botao:hover {
     background-color: red;
+}
+fieldset #sexualidade {
+    display: none;
+}
+
+@media screen and (max-width: 418px) {
+    * {
+        font-size: 15px;
+    }
+    fieldset #sexo {
+        display: none;
+    }
+    fieldset #sexualidade {
+        display: block;
+    }
 }
