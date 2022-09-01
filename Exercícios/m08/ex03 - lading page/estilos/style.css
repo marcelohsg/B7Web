@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+header #marca {
+    color: white;
+    
+}
+header .icone_social {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 1000px;
+    padding: 0px 10px;   
+}
+
+.container .social {
+    display: flex;
+}
+.container .social .icone_social {
+    margin: 5px;
+}
+main {
+    background-color: aquamarine;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.parte_superior {
+    display: flex; 
+    
+}
+.parte_video {
+background-color: brown;
+width: 560px;
+height: auto;
+
+}
+.parte_texto {
+background-color: blueviolet;
+width: 50%;
+height: 400px;
+
+padding: 10px;
+}
+.parte_texto h1 {
+    color: white;
+}
+.parte_texto p {
+    margin-top: 10px;
+    color: white;    
+}
+.parte_texto p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: green;
+    padding: 13px;    
+}
+.parte_texto p .botao {
+    margin-top: 10px;
+}
+
