@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de primeira letra e primeira linha</title>
+</head>
+<style>
+    /* Atribui os valores do css a primeira letra da tag <p> */
+    p::first-letter { 
+        /* 
+           : = responsavel por atribuir os valores no elemento
+           :: = responsavel por atribuir os valores no conteudo do elemento 
+        */
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /* Atribuindo valores do css na primeira linha */
+    p::first-line {
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, perspiciatis culpa! Similique tenetur sed voluptatibus, blanditiis doloremque quidem illum quae necessitatibus nemo eligendi repudiandae dicta magni dolorem sint optio. Rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odio culpa. Iure laudantium voluptatibus ex dolore! Magnam molestias laborum culpa quam quae sapiente sit, perferendis aliquam temporibus. Voluptate, laboriosam sit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nam nesciunt voluptas magni, corporis blanditiis ipsum id vitae sapiente tempore amet excepturi tempora ducimus illo debitis illum reprehenderit magnam tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos blanditiis ad aliquam, temporibus totam iure ut beatae sequi repellendus. Obcaecati velit atque adipisci odio maiores officiis illum error modi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint magnam vero ipsam dolor asperiores fuga in odit, cum iste dignissimos est et commodi necessitatibus fugiat rerum beatae earum! Eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloremque placeat corrupti, mollitia doloribus fugit recusandae repellendus nobis ipsum voluptatem dicta inventore voluptatum, reiciendis delectus voluptas pariatur ipsa blanditiis repudiandae!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat odit inventore blanditiis sed possimus nesciunt dolor nisi expedita qui? Accusantium dicta nam doloremque ipsum magnam maxime, suscipit blanditiis. Nostrum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga perspiciatis voluptatem reiciendis expedita! Iste, aliquid quis aliquam rem debitis vel, ratione autem consequuntur corrupti iusto ab asperiores, atque itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perferendis aliquam, iure magnam maxime, quaerat dolor et suscipit nostrum deleniti ratione nemo placeat. Voluptatibus doloremque nulla placeat vitae quia sed!</p>
+    
+</body>
+</html>
