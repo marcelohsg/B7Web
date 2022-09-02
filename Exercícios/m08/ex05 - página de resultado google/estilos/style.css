@@ -6,8 +6,7 @@
 }
 
 html, body {
-    height: 100%;
-    background-color: aqua;
+    
 }
 
 header {
@@ -139,4 +138,105 @@ main {
 
 .nav li:hover a {
     color: #1A73E8;
+}
+
+.resultados {
+    width: calc(100% - 180px);
+    height: 20px;
+    padding-left: 180px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.container {
+    
+    width: calc(100% - 180px);
+    height: auto;
+    padding-left: 180px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-pesquisa {
+    
+    width: 620px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.titulo a {
+    max-width: 620px;
+    height: 23px;
+    font-size: 18px;
+    color: #1A0DAB;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.titulo a:hover {
+    text-decoration: underline;
+}
+
+.link,.link a{
+	height: 17px;
+	color: #006621;
+	font-size: 14px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+.info{
+	color: #545454;
+	font-size: 14px;
+	margin-bottom: 5px;	
+	line-height:20px;
+}
+
+.pesquisas-relacionadas {
+    max-width: 620px;
+    height: 200px; 
+    
+    
+}
+
+.pesquisas-relacionadas p {
+    margin-bottom: 10px;
+    
+}
+
+.int {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 25px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.int p {
+    
+    background-color: rgba(204, 204, 204, 0.781);
+    width: 295px;
+    text-align: center;
+    padding: 13px;    
+    border-radius: 25px;
+    
+}
+.int a {
+    color: black;
+    text-decoration: none;
 }
