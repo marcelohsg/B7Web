@@ -1,0 +1,24 @@
+input, a {
+    display: block;
+}
+
+[required] { /* todos os elementos que estiverem com o atributo vão obter essa caracteristica de css */
+    
+}
+
+input[required] { /* todos os inputs que estiverem com o atributo vão obter essa caracteristica de css */
+
+}
+
+.class,#id[required] { /* todas as classes ou id que estiverem com o atributo vão obter essa caracteristica de css */
+
+}
+
+input[type=text] { /* o type que tem o valor text vai receber as caracteristicas */
+    background-color: aqua;
+}
+
+/*Agora se o valor especifico, criado pelo próprio programador, coloca-se "".*/
+input[name="senha"] {
+    background-color: blueviolet;
+}
