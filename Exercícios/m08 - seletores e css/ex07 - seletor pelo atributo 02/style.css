@@ -1,0 +1,33 @@
+input, a {
+    display: block;
+   
+    
+}
+
+/* Seletores atraves do próprio link da notícia */
+
+a[href*="economia"] {
+    background-color: aquamarine;
+}
+
+a[href*="futebol"] {
+    background-color: brown;
+}
+
+/* itens que começam com determinado valor */
+
+a[href^="https:"] {
+    color: green;
+}
+
+a[href^="http:"] {
+    color: darkgray;
+}
+
+/* itens que terminam com determinado valor */
+
+a [href$=""] {
+    background-color: aqua;
+}
+
+
