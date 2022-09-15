@@ -471,4 +471,58 @@ header {
     background-color: #b28756;
 }
 
+.section-reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-reviews--avatar {
+    width: 150px;
+}
+
+.section-reviews--name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.section-reviews--role {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.section-review {    
+    text-align: center;
+    max-width: 700px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 20px;           
+}
+
+.section-reviews .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-reviews .pointer {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #b28756;    
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.section-reviews .pointer.active {
+    background-color: #b28756b2;
+}
+
 
