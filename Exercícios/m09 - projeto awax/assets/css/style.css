@@ -193,7 +193,7 @@ header {
 }
 
 .default.light {
-    background-color: #f7f7f7;
+    background-color: #f7f7f7;    
 }
 
 .default.light .section-title,
@@ -524,5 +524,83 @@ header {
 .section-reviews .pointer.active {
     background-color: #b28756b2;
 }
+
+.sponsor {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 1px 0px 5px 0px rgba(0, 0, 0, 0.4); */
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+   
+}
+
+.sponsor img {
+   margin: 40px;   
+}
+
+.default.light.price {
+    background-color: rgb(221, 221, 221);
+}
+
+.section-desc.desc-price {
+    color: #999;
+}
+
+.section-princing--table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-prince {
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-prince h4 {
+    text-transform: uppercase;
+}
+
+.section-prince .valor {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.section-prince .month {
+    font-size: 12px;
+    color: #999;
+}
+
+.section-prince .conteudo {
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.section-prince a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.section-prince a:hover {
+    background-color: #b28756;
+}
+
+
 
 
