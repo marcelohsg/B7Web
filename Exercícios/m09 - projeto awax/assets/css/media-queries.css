@@ -33,5 +33,62 @@
         border: 0;
         color: #b28756; 
     }
-}
-
+    .section-aboutus {
+        flex-direction: column;    
+    }
+    .section-aboutus--left {
+        margin: 0px 30px 30px 30px;
+    }
+    .section-aboutus--right {
+        width: auto;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 50%;        
+        margin-bottom: 30px;
+    }
+    .section-service:first-child {
+        border-left: 0;
+    }
+    .section-team {        
+        max-width: 580px;    
+    }
+    .sponsor {
+        flex-wrap: wrap;
+    }
+    .section-princing--table {
+        flex-wrap: wrap;
+    }
+    .section-prince  {
+        min-width: 250px;
+        margin-top: 20px;
+    }
+    .section-premium--image {
+        margin-left: 20px;
+    }
+    .footer-area {
+        padding: 20px;                    
+        flex-direction: column;           
+    }
+    .footer-social {
+        order: 2;
+        margin: auto;        
+    } 
+    .footer-social--icons {
+        margin-bottom: 30px;
+    }
+    .footer-social--text {       
+        margin: auto;    
+    }    
+    .footer-text {
+        order: 1;
+    }     
+    .footer-form {
+        order: 0;        
+    }
+    .footer-form--area form{
+        padding: 30px;
+    }
+}   
