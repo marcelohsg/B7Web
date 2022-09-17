@@ -899,6 +899,10 @@ footer {
     align-items: center;
 }
 
+.footer-social--icons a:hover {
+    background-color: #b28756;
+}
+
 .footer-social--text {    
     font-weight: 600;
 }
