@@ -92,3 +92,146 @@
         padding: 30px;
     }
 }   
+
+@media screen and (max-width: 450px) {
+
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 35px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .menu li a:hover,
+    .menu .active a {
+        border: 0;
+        color: #b28756; 
+    }
+    .banner h1 {       
+        font-size: 35px;
+    }
+    .banner h2 {        
+        font-size: 1em;        
+    }
+    .section-aboutus {
+        flex-direction: column;    
+    }
+    .section-aboutus--left {
+        margin: 0px 30px 30px 30px;
+    }
+    .section-aboutus--right {
+        width: auto;
+        margin: 0px 30px;
+    }
+    .section-aboutus--right img {
+        width: 100%;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 100%;        
+        margin-bottom: 30px;
+    }
+    .section-service:first-child {
+        border-left: 0;
+    }
+    
+    .section-projects--filters {
+        margin: 0px 30px;
+    }
+    .section-projects--photo {
+        width: 320px;
+    }
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+    .section-team {        
+        max-width: 280px;    
+    }
+    .section-review {
+        padding: 10px;
+    }
+    .sponsor {
+        flex-wrap: wrap;
+    }
+    .section-princing--table {
+        flex-wrap: wrap;
+    }
+    .section-prince  {
+        min-width: 250px;
+        margin-top: 20px;
+    }
+    .section-premium {
+        flex-wrap: wrap;
+    }
+    .section-premium--image {
+        margin-left: 20px;
+    }
+    .section-somefacts {
+        flex-wrap: wrap;
+    }
+    .section-social--twitter,
+    .section-social--linkedin,
+    .section-social--facebook,
+    .section-social--googleplus,
+    .section-social--pinterest {
+        margin-right: 20px;
+    }
+    .section-contact {
+        padding: 10px;        
+    }
+    .section-contact--split {
+        flex-direction: column;
+    }
+    .section-map--info {
+        width: 70%;
+    }
+    .footer-area {
+        padding: 20px;                    
+        flex-direction: column;           
+    }
+    .footer-social {
+        order: 2;
+        margin: auto;        
+    } 
+    .footer-social--icons {
+        margin-bottom: 30px;
+    }
+    .footer-social--text {       
+        margin: auto;    
+    }    
+    .footer-text {
+        order: 1;
+    }     
+    .footer-form {
+        order: 0;        
+    }
+    .footer-form--area form{
+        padding: 30px;
+    }
+}   
+
+
