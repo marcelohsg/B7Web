@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid - Template area</title>
+    <style>
+      
+        .container {
+            background-color: #ccc;          
+            display: grid;                                 
+            gap: 10px;
+            grid-template-areas: 
+            
+                "item1 item1 item2"
+                "item3 item3 item2"
+                "item4 item4 item4"
+                
+
+            ;
+        }
+
+        .item {
+            background-color: blue;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            font-size: 20px;                
+        }
+
+        .item-1 {
+            grid-area: item1;
+        }
+        .item-2 {
+            grid-area: item2;
+        }
+        .item-3 {
+            grid-area: item3;
+        }
+        .item-4 {
+            grid-area: item4;
+        }                     
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">01</div>
+        <div class="item item-2">02</div>
+        <div class="item item-3">03</div>
+        <div class="item item-4">04</div>       
+    </div>
+</body>
+</html>
