@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de Layout em Grid</title>
+    <style>        
+      
+        .container {
+            background-color: #ccc;                     
+            display: grid;                                 
+            gap: 10px;
+            grid-template-areas: 
+            
+                "header header header header header header header header"
+                "menu menu content content content content content content"
+                "footer footer footer  footer footer footer footer ad"
+
+            ;            
+        }
+
+        .item {
+            background-color: blue;            
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;                
+        }
+
+        header {
+            grid-area: header;
+        }
+        nav {
+            grid-area: menu;
+        }
+        section {
+            grid-area: content;
+        }
+        footer {
+            grid-area: footer;
+        }
+        .ad {
+            grid-area: ad;
+        }
+                        
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="item">Cabeçalho</header>
+        <nav class="item">Menu</nav>
+        <section class="item">Conteúdo</section>
+        <footer class="item">Rodapé</footer>
+        <div class="item ad">Anúncio</div>
+    </div>
+</body>
+</html>
