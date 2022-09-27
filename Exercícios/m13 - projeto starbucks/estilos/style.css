@@ -15,3 +15,49 @@ header .line {
     background-color: #117050;
     height: 10px;
 }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 100px;   
+}
+.header--left img {
+    width: 64px;
+    height: 64px;
+}
+.header--search {
+    display: flex;    
+    align-items: center;
+}
+.header--search form {
+    display: flex;
+}
+.header--search input {
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #999;
+    outline: 0; /*Tira a borda que se forma quando selecionamos o campo do input:text*/
+    width: 100%;
+    max-width: 250px;
+    
+}
+.header--search button {
+    border: 0;
+    background-color: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header--search button img {
+    width: 24px;
+    height: 24px;
+}
+.header--search .menu img {
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
