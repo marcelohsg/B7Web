@@ -61,3 +61,28 @@ header .line {
     margin-left: 50px;
     cursor: pointer;
 }
+.banner {
+    background-image: url('../imagens/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;    
+}
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100px;
+    margin-bottom: 30px;         
+}
+.banner--images {
+    margin-top: 60px;
+}
+.banner--images img{
+    width: 148px;
+    height: 148px;
+    border: 5px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
