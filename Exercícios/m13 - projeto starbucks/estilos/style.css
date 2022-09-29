@@ -28,13 +28,28 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 35px;
-    line-height: 45px;    
+    line-height: 45px;
+    margin: 20px 0px;    
 }
 
 .bar {
     width: 168px;
     height: 22px;
     background-color: #117050;    
+}
+
+.button {
+    display: inline-block;
+    color: #454545;
+    border: 3px solid #454545;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 40px;    
+}
+.button:hover {
+    background-color: #454545;
+    color: white;
 }
 
 header .line {
@@ -109,6 +124,14 @@ header .line {
 .area1--content {
     padding: 80px;
 }
+.area1--quote {
+    margin-bottom: 20px;    
+}
+.area1--text {
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
 .area1--img1 {
     height: 347px;
     background-image: url('../imagens/f2.jpg');
