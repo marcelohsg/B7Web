@@ -171,3 +171,27 @@ header .line {
    background-size: cover;
    background-position: center; 
 }
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+.area3--content {
+    padding: 192px 80px;
+    background-image: url('../imagens/bg2.jpg');
+    background-size: cover;
+    background-position: left;       
+}
+.area3--text {
+    margin-bottom: 40px;
+    line-height: 25px;       
+}
+.area3--content .button {
+    display: inline-block;
+}
+
+.area3--img {    
+    background-image: url('../imagens/f5.jpg');
+    background-size: cover;
+    background-position: center; 
+}
