@@ -189,9 +189,28 @@ header .line {
 .area3--content .button {
     display: inline-block;
 }
-
 .area3--img {    
     background-image: url('../imagens/f5.jpg');
     background-size: cover;
     background-position: center; 
+}
+
+.area4 {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+.area4--content {
+    padding: 192px 80px;          
+}
+.area4--text {
+    margin-bottom: 40px;
+    line-height: 25px;       
+}
+.area4--content .button {
+    display: inline-block;
+}
+.area4--img {    
+    background-image: url('../imagens/bg3.jpg');
+    background-size: cover;
+    background-position: start; 
 }
