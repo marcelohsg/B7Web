@@ -198,9 +198,10 @@ header .line {
 .area4 {
     display: grid;
     grid-template-columns: .5fr 1fr;
+    background-color: #e8e9ee;
 }
 .area4--content {
-    padding: 192px 80px;          
+    padding: 150px 80px;         
 }
 .area4--text {
     margin-bottom: 40px;
@@ -212,5 +213,5 @@ header .line {
 .area4--img {    
     background-image: url('../imagens/bg3.jpg');
     background-size: cover;
-    background-position: start; 
+    background-position: left; 
 }
