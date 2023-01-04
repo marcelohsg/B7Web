@@ -7,6 +7,28 @@
     <title>Eventos de clique!</title>
 </head>
 <body>
-    
+    <h1>Olá, JavaScript!</h1>
+
+    <div id="teste">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non reprehenderit quam vitae accusamus. Consequuntur, possimus dignissimos blanditiis veniam temporibus placeat ea voluptatem officia veritatis sed ipsam alias, ex odio.</p>
+    </div>
+    <div>
+        <ul>
+            <li>Item 01</li>    
+            <li>Item 02</li>
+            <li>Item 03</li>
+        </ul>
+    </div>
+
+    <button class="botao">Clique em mim!</button>
+
+    <script>
+        function clicou() {
+            console.log('Clicou no botão!')
+        }
+
+        let botao = document.querySelector('.botao')
+        botao.addEventListener('click', clicou)
+    </script>
 </body>
 </html>
